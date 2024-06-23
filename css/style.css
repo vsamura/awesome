@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.awesome {
+    font-family: "Tahoma";
+    text-align: center; 
+}
+
+.container{
+    width: 1095px;
+    margin: 0 auto;
+}
+
+.awesome__title {
+        font-size: 36px;
+        color: rgb(33, 33, 33);
+        font-weight: normal;
+        margin: 105px 0 30px;
+}
+
+.awesome__line {
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 0 auto 30px;
+}
+
+.awesome__text {
+        font-size: 14px;
+        color: rgb(134, 135, 139);  
+        margin-bottom: 82px; 
+}
+.awesome__bloks-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 335px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 2px #ff8b38;
+    margin: 0 auto 30px;
+}
+
+.fa {
+    margin-top: 16px;
+    font-size: 30px;
+    color:#ff8b38;
+}
+
+.cards-title {
+        font-size: 22px;
+        color: rgb(51, 51, 51);
+        margin-bottom: 30px;
+}
+
+.cards-text {
+        font-size: 14px;
+        color: rgb(134, 135, 139);
+        margin-bottom: 105px;
+}
+
